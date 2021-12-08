@@ -1,0 +1,27 @@
+{
+    "vm-name": "Ubuntu-Template(12/7/21)",
+      
+    "vcenter-server":"172.16.12.20",
+    "vcenter-username":"administrator@vsphere.local",
+    "vcenter-password": "VMware1!",
+    
+    "datacenter": "L3C Demo Datacenter",
+    "datastore": "vsanDatastore",
+    "folder": "Templates",
+    "cluster": "VSAN Cluster",
+    "network": "Management Network",
+    
+    "vm-cpu-num": "2",
+    "vm-mem-size": "8000",
+    "vm-disk-size": "10000",
+      
+    "ssh-username": "root",
+    "ssh-password": "VMware1!",
+    
+    "http directory": "http",
+    "iso-url": 
+      "https://releases.ubuntu.com/18.04.6/ubuntu-18.04.6-desktop-amd64.iso",
+    "iso-checksum": "f730be589aa1ba923ebe6eca573fa66d09ba14c4c104da2c329df652d42aff11",
+    "iso-checksum-type": "sha256"
+  }
+  
